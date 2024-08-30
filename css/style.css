@@ -144,6 +144,8 @@ section .headdder {
 }
 .cards:nth-child(4) {
   margin: auto;
+  position: absolute;
+  left: 50%;
 }
 /* .cards:nth-child(4) {
   display: block;
