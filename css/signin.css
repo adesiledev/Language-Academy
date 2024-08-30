@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.overallcontent {
+  display: grid;
+
+  grid-template-columns: 3fr 9fr;
+}
+.signin-image img {
+  padding: 60px 0px;
+  width: 100%;
+}
+.signin-image {
+  width: 100%;
+  height: 100vh;
+  background-color: #ff9900;
+}
+.sign-in_main {
+  padding-top: 80px;
+  padding-left: 20px;
+}
+.right-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 26px;
+}
+.right-nav a {
+  text-decoration: none;
+  color: #52b6ec;
+}
+.left-nav img {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.signin a {
+  text-decoration: none;
+  padding: 12px 18px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: #000;
+}
+.signin a:nth-child(2) {
+  background-color: blue;
+  color: #fff;
+  border: none;
+}
+main {
+  margin-bottom: 60px;
+  width: 700px;
+  max-width: 100%;
+}
+.signin {
+  display: flex;
+  justify-content: space-between;
+}
+.border {
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.line1 {
+  height: 12px;
+  border-bottom: solid 2px #000;
+  display: flex;
+  width: 170px;
+  max-width: 100%;
+}
+.first-input {
+  margin-top: 44px;
+}
+.input {
+  display: flex;
+  padding: 12px 8px;
+  gap: 12px;
+  border: 1px solid #ff9900;
+  border-radius: 10px;
+}
+.input2 {
+  display: flex;
+  padding: 12px 8px;
+  gap: 12px;
+  border: 1px solid #37474f;
+  border-radius: 10px;
+}
+.input input {
+  border: none;
+  max-width: 100%;
+}
+.input2 input {
+  border: none;
+  max-width: 100%;
+}
+.second-input {
+  margin-top: 44px;
+}
+form p {
+  padding-top: 24px;
+  padding-bottom: 22px;
+}
+form p a {
+  text-decoration: none;
+  color: #000;
+}
+form .para span a {
+  text-decoration: none;
+  color: #000;
+}
+.signinlink {
+  /* display: block; */
+  background-color: #ff9900;
+  /* align-items: center;
+  justify-content: center; */
+  padding: 12px 8px;
+  border-radius: 10px;
+  margin-bottom: 22px;
+}
+.signinlink span button {
+  background-color: #ff9900;
+  border: none;
+  cursor: pointer;
+}
+.signinlink span {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.signin-bobile a {
+  margin-top: 22px;
+  text-decoration: none;
+  padding: 12px 18px;
+
+  border: 2px solid black;
+  border-radius: 10px;
+  color: #000;
+}
+.signin-bobile a:nth-child(2) {
+  background-color: blue;
+  color: #fff;
+  border: none;
+}
+.signin-bobile {
+  display: none;
+  justify-content: space-between;
+}
+.bordermobile {
+  padding-top: 12px;
+  display: none;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+.line1 {
+  height: 12px;
+  border-bottom: solid 2px #000;
+  display: flex;
+  width: 170px;
+  max-width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+  .overallcontent {
+    grid-template-columns: 1fr;
+  }
+  .signin-image {
+    display: none;
+  }
+  .sign-in_main {
+    padding: 0px 22px;
+  }
+  nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+  main {
+    width: 100%;
+  }
+  .signin {
+    max-width: 100%;
+  }
+  .border {
+    max-width: 100%;
+  }
+  form {
+    max-width: 100%;
+  }
+  .signin {
+    display: none;
+  }
+  .first-input {
+    max-width: 100%;
+  }
+  .second-input {
+    max-width: 100%;
+  }
+  .para {
+    max-width: 100%;
+  }
+  .signin-bobile {
+    display: flex;
+  }
+  .border {
+    display: none;
+  }
+  .bordermobile {
+    display: flex;
+  }
+}
